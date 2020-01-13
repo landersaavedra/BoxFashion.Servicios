@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxFashion.WCF", "BoxFashion.WCF\BoxFashion.WCF.csproj", "{5A910B76-A521-42A0-A0B8-4FB07859778E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxFashion.Core", "BoxFashion.Core\BoxFashion.Core.csproj", "{3F5C78D6-9933-4B63-95FE-BACE37DB522A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AA4EB33-89FD-46CD-85A7-D324B86D2B72}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A910B76-A521-42A0-A0B8-4FB07859778E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A910B76-A521-42A0-A0B8-4FB07859778E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A910B76-A521-42A0-A0B8-4FB07859778E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A910B76-A521-42A0-A0B8-4FB07859778E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5C78D6-9933-4B63-95FE-BACE37DB522A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5C78D6-9933-4B63-95FE-BACE37DB522A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5C78D6-9933-4B63-95FE-BACE37DB522A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5C78D6-9933-4B63-95FE-BACE37DB522A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11F4709F-6DFB-407D-AC0B-5C8F6CA65799}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Npgsql.GeoJSON</name>
+    </assembly>
+    <members>
+        <member name="T:Npgsql.GeoJSON.CrsMapEntry">
+            <summary>
+            An entry which maps the authority to the inclusive range of SRID.
+            </summary>
+        </member>
+        <member name="F:Npgsql.GeoJSON.CrsMap.WellKnown">
+            <summary>
+            These entries came from spatial_res_sys. They are used to elide memory allocations
+            if they are identical to the entries for the current connection. Otherwise,
+            memory allocated for overrided entries only (added, removed, or modified).
+            </summary>
+        </member>
+        <member name="T:Npgsql.GeoJSON.EwkbGeometryType">
+            <summary>
+            Represents the identifier of the Well Known Binary representation of a geographical feature specified by the OGC.
+            http://portal.opengeospatial.org/files/?artifact_id=13227 Chapter 6.3.2.7
+            </summary>
+        </member>
+        <member name="T:Npgsql.NpgsqlGeoJSONExtensions">
+            <summary>
+            Extension allowing adding the GeoJSON plugin to an Npgsql type mapper.
+            </summary>
+        </member>
+        <member name="M:Npgsql.NpgsqlGeoJSONExtensions.UseGeoJson(Npgsql.TypeMapping.INpgsqlTypeMapper,Npgsql.GeoJSON.GeoJSONOptions,System.Boolean)">
+            <summary>
+            Sets up GeoJSON mappings for the PostGIS types.
+            </summary>
+            <param name="mapper">The type mapper to set up (global or connection-specific)</param>
+            <param name="options">Options to use when constructing objects.</param>
+            <param name="geographyAsDefault">Specifies that the geography type is used for mapping by default.</param>
+        </member>
+    </members>
+</doc>
